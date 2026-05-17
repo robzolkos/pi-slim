@@ -1,8 +1,8 @@
 {
   "name": "pi-slim",
-  "version": "0.1.0",
-  "description": "Slim Pi's default system prompt by making Pi documentation guidance opt-in via /pi or /skill:pi.",
-  "keywords": ["pi-package", "pi", "prompt", "extension", "skill"],
+  "version": "0.2.0",
+  "description": "Slim Pi's default system prompt by making Pi documentation guidance opt-in via /pi.",
+  "keywords": ["pi-package", "pi", "prompt", "extension"],
   "author": "Rob Zolkos <rob@zolkos.com>",
   "license": "MIT",
   "type": "module",
@@ -14,10 +14,9 @@
   "bugs": {
     "url": "https://github.com/robzolkos/pi-slim/issues"
   },
-  "files": ["extensions", "skills", "README.md", "LICENSE"],
+  "files": ["extensions", "README.md", "LICENSE"],
   "pi": {
-    "extensions": ["./extensions"],
-    "skills": ["./skills"]
+    "extensions": ["./extensions"]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
