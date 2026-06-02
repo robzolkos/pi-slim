@@ -1,7 +1,7 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 
 const PI_DOCS_SECTION =
-	/\n\nPi documentation \(read only when the user asks about pi itself, its SDK, extensions, themes, skills, or TUI\):\n- Main documentation: [^\n]*\n- Additional docs: [^\n]*\n- Examples: [^\n]*\n- When asked about: [^\n]*\n- When working on pi topics, [^\n]*\n- Always read pi \.md files completely[^\n]*/;
+	/\nPi documentation \(read only when the user asks about pi itself[^\n]*\n(?:- [^\n]*\n)*- [^\n]*/;
 
 export default function piSlim(pi: ExtensionAPI) {
 	let preservePiDocsForNextTurn = false;
