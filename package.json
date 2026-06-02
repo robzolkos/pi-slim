@@ -1,6 +1,6 @@
 {
   "name": "pi-slim",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Slim Pi's default system prompt by making Pi documentation guidance opt-in via /pi.",
   "keywords": ["pi-package", "pi", "prompt", "extension"],
   "author": "Rob Zolkos <rob@zolkos.com>",
